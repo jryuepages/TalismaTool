@@ -6,7 +6,7 @@
 
 SERVER="SERVERPLACEHOLDER"
 
-LOCK_FILE="/var/lock/subsys/vmtool"
+LOCK_FILE="/var/lock/subsys/talismatool"
 
 do_start()
 {
