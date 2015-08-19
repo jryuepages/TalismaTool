@@ -1,0 +1,44 @@
+
+
+<div ng-controller="talisma_tracker_Controller">
+
+<center>
+
+<img src="talisma_tracker_header.jpg"></img>
+
+<br />
+
+<div class="table-responsive">
+
+    <div class="stock" style="width:1200px;">
+    <table class="table table-striped" width="100%">
+      <tr ng-repeat="talisma_tracker_user in talisma_tracker_users">
+        <td width="20%">{{talisma_tracker_user.name}}</td>
+        <td width="5%">
+          <span ng-if="talisma_tracker_user.status=='free'" class="label label-success">{{talisma_tracker_user.status}}</span>
+          <span ng-if="talisma_tracker_user.status=='Talisma Duty'" class="label label-danger">{{talisma_tracker_user.status}}</span>
+        </td>
+        <td width="30%">
+          <div ng-if="talisma_tracker_user.contact!=''">Contact: {{talisma_tracker_user.contact}}</div>
+        </td>
+        <td width="10%">
+          <button type="button" class="btn btn-default btn-sm" aria-label="Left Align" ng-click="edit(talisma_tracker_user.id)">
+          <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+          </button>
+        </td>
+        <td valign="top" width="15%">Days Amount:</td>
+        <td valign="top" width="5%">{{talisma_tracker_user.total_days_amount}}</td>
+        <td valign="top" width="30%">Minutes Amount:</td>
+        <td valign="top" width="5%">{{talisma_tracker_user.partial_minutes_amount}}</td>
+      </tr>
+    </table> 
+  </div>
+
+  <div class="panel-footer"></div>
+</div>
+
+
+
+</center>
+
+</div>
