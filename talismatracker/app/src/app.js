@@ -6,7 +6,7 @@ var app = angular.module('talisma_tracker', ['ngRoute', 'ngResource', 'ui.bootst
 
 
 app.constant('config', {
-  'endpoint': 'http://trident.vm-intern.epages.com/'
+  'endpoint': 'http://trident.vm-intern.epages.com:3010/'
 });
 
 
