@@ -90,6 +90,13 @@
       "total_days_amount": "0",
       "contact": "h.silva@epages.com",
       "partial_minutes_amount" : "0"
-    }
+    },
+    {
+      "name": "Jenam Ryu",
+      "status": "free",
+      "total_days_amount": "0",
+      "contact": "j.ryu@epages.com",
+      "partial_minutes_amount" : "0"
+    }    
   ]
 }
