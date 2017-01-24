@@ -83,6 +83,13 @@
       "total_days_amount": "0",
       "contact": "s.martinez@epages.com",
       "partial_minutes_amount" : "0"
+    },
+    {
+      "name": "Hugo Silva",
+      "status": "free",
+      "total_days_amount": "0",
+      "contact": "h.silva@epages.com",
+      "partial_minutes_amount" : "0"
     }
   ]
 }
